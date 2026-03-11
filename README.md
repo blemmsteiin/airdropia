@@ -1,8 +1,6 @@
-<p align="center">
-  <img src="./assets/images/logo3.png" width="150" alt="Airdropia Logo">
-</p>
-
 # Airdrop & Discount Tracking App (Airdropia) 🚀✨
+
+![Airdropia Logo](./assets/images/logo3.png)
 
 ![Airdropia Banner](./assets/images/banner.png)
 
