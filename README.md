@@ -1,4 +1,10 @@
+<p align="center">
+  <img src="./assets/images/logo3.png" width="150" alt="Airdropia Logo">
+</p>
+
 # Airdrop & Discount Tracking App (Airdropia) 🚀✨
+
+![Airdropia Banner](./assets/images/banner.png)
 
 Airdropia is a modern React Native (Expo) mobile application designed to track the latest airdrops and discount opportunities. It features real-time chat between users and a comprehensive support ticket system.
 
