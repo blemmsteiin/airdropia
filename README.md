@@ -1,6 +1,6 @@
-# Airdrop & Discount Tracking App (Airdropia) 🚀✨
+<img src="./assets/images/logo3.png" width="100" alt="Airdropia Logo" />
 
-![Airdropia Logo](./assets/images/logo3.png)
+# Airdrop & Discount Tracking App (Airdropia) 🚀✨
 
 ![Airdropia Banner](./assets/images/banner.png)
 
