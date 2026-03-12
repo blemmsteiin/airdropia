@@ -162,7 +162,7 @@ const AdminLoginScreen = ({ navigation }) => {
       }
 
       console.log(error);
-      let errorMessage = 'E-posta veya şifre hatalı.';
+      let errorMessage = `E-posta veya şifre hatalı. (Hata Kodu: ${error.code})`;
       if (error.code === 'auth/invalid-credential') errorMessage = 'Geçersiz bilgiler.';
       Alert.alert('Giriş Başarısız', errorMessage);
     }

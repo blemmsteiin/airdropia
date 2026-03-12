@@ -64,6 +64,9 @@ function MainTabs({ navigation }) {
         setIsAdmin(false);
         await AsyncStorage.removeItem('isAdmin_cache');
       }
+    }, (err) => {
+      console.log("Firestore Admin Snapshot Error:", err);
+      setIsAdmin(false);
     });
 
     return () => unsubscribe();
@@ -440,6 +443,9 @@ export default function App() {
             console.log(`[BAN TRACE] No user document found for ${docSnap.id}`);
           }
           setIsInitializing(false);
+        }, (err) => {
+          console.log(`[BAN TRACE] Snapshot error for ${currentUser.uid}:`, err);
+          setIsInitializing(false); // Permission error shouldn't hang the app
         });
       } else {
         console.log(`[BAN TRACE] No currentUser detected.`);

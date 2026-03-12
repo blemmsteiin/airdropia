@@ -333,7 +333,7 @@ const UserAuthScreen = ({ navigation }) => {
         }
       }
 
-      let errorMessage = 'Bir hata oluştu.';
+      let errorMessage = `Bir hata oluştu. (Hata Kodu: ${error.code})`;
       if (error.code === 'auth/email-already-in-use') errorMessage = 'Bu e-posta zaten kullanımda.';
       if (error.code === 'auth/invalid-email') errorMessage = 'Geçersiz e-posta adresi.';
       if (error.code === 'auth/weak-password') errorMessage = 'Şifre çok zayıf (en az 8 karakter olmalı).';

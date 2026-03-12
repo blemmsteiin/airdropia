@@ -5,9 +5,9 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const firebaseConfig = {
   apiKey: "AIzaSyCxkq6W05pa3tdxE4hmIw4BYE9oN4t1f0Q",
-  authDomain: "airdropia.firebaseapp.com",
-  projectId: "airdropia",
-  storageBucket: "airdropia.firebasestorage.app",
+  authDomain: "airdropbgy.firebaseapp.com",
+  projectId: "airdropbgy",
+  storageBucket: "airdropbgy.firebasestorage.app",
   messagingSenderId: "394122331080",
   appId: "1:394122331080:web:83b6fe6862298c240fb6fd",
   measurementId: "G-0DBLFNXJLJ"

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "394122331080",
+    "project_id": "airdropbgy",
+    "storage_bucket": "airdropbgy.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394122331080:android:7a3b942adcf3c61e0fb6fd",
+        "android_client_info": {
+          "package_name": "com.airdropia.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394122331080-6sl9b9kvjh795a20aotsrdv35u7a50io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhfRB0V1V948UDT_bIxcTXyKQyneu4oB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394122331080-6sl9b9kvjh795a20aotsrdv35u7a50io.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
